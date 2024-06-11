@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Storage App</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body  style="background-color: black;">
+    <div class="container">
+        <h1>Number Storage App</h1>
+        <div class="container-feild">
+            <input type="number" id="numberInput" placeholder="Enter a number">
+            <button onclick="addNumber()">Add Number</button>
+        </div>
+
+        <div class="buttons buton-apply">
+            <button onclick="getMax()">Get Max</button>
+            <button onclick="getMin()">Get Min</button>
+        </div>
+        <button onclick="clearNumbers()" class="clearNumbers">Clear Numbers</button>
+        <div id="result"></div>
+        <div id="numbersList"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
